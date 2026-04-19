@@ -1,0 +1,290 @@
+[
+  {
+    "snr_db": "clean",
+    "noise_type": "gaussian",
+    "overall_accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 1.0,
+      "children_playing": 1.0,
+      "dog_bark": 0.0,
+      "drilling": 1.0,
+      "engine_idling": 0.0,
+      "gun_shot": 1.0,
+      "jackhammer": 1.0,
+      "siren": 1.0,
+      "street_music": 1.0
+    }
+  },
+  {
+    "snr_db": 20,
+    "noise_type": "gaussian",
+    "overall_accuracy": 0.4,
+    "macro_f1": 0.33333333333333337,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 0.0,
+      "gun_shot": 1.0,
+      "jackhammer": 1.0,
+      "siren": 1.0,
+      "street_music": 0.0
+    }
+  },
+  {
+    "snr_db": 10,
+    "noise_type": "gaussian",
+    "overall_accuracy": 0.4,
+    "macro_f1": 0.2833333333333333,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 0.0,
+      "gun_shot": 1.0,
+      "jackhammer": 1.0,
+      "siren": 1.0,
+      "street_music": 0.0
+    }
+  },
+  {
+    "snr_db": 5,
+    "noise_type": "gaussian",
+    "overall_accuracy": 0.3,
+    "macro_f1": 0.17333333333333334,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 0.0,
+      "gun_shot": 1.0,
+      "jackhammer": 0.0,
+      "siren": 1.0,
+      "street_music": 0.0
+    }
+  },
+  {
+    "snr_db": 0,
+    "noise_type": "gaussian",
+    "overall_accuracy": 0.3,
+    "macro_f1": 0.17333333333333334,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 0.0,
+      "gun_shot": 1.0,
+      "jackhammer": 0.0,
+      "siren": 1.0,
+      "street_music": 0.0
+    }
+  },
+  {
+    "snr_db": -5,
+    "noise_type": "gaussian",
+    "overall_accuracy": 0.3,
+    "macro_f1": 0.22222222222222224,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 0.0,
+      "gun_shot": 1.0,
+      "jackhammer": 0.0,
+      "siren": 1.0,
+      "street_music": 0.0
+    }
+  },
+  {
+    "snr_db": 20,
+    "noise_type": "traffic",
+    "overall_accuracy": 0.2,
+    "macro_f1": 0.12,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 0.0,
+      "gun_shot": 1.0,
+      "jackhammer": 0.0,
+      "siren": 0.0,
+      "street_music": 0.0
+    }
+  },
+  {
+    "snr_db": 10,
+    "noise_type": "traffic",
+    "overall_accuracy": 0.2,
+    "macro_f1": 0.12222222222222223,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 0.0,
+      "gun_shot": 1.0,
+      "jackhammer": 0.0,
+      "siren": 0.0,
+      "street_music": 0.0
+    }
+  },
+  {
+    "snr_db": 5,
+    "noise_type": "traffic",
+    "overall_accuracy": 0.2,
+    "macro_f1": 0.12222222222222223,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 0.0,
+      "gun_shot": 1.0,
+      "jackhammer": 0.0,
+      "siren": 0.0,
+      "street_music": 0.0
+    }
+  },
+  {
+    "snr_db": 0,
+    "noise_type": "traffic",
+    "overall_accuracy": 0.2,
+    "macro_f1": 0.125,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 0.0,
+      "gun_shot": 1.0,
+      "jackhammer": 0.0,
+      "siren": 0.0,
+      "street_music": 0.0
+    }
+  },
+  {
+    "snr_db": -5,
+    "noise_type": "traffic",
+    "overall_accuracy": 0.2,
+    "macro_f1": 0.12,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 0.0,
+      "gun_shot": 1.0,
+      "jackhammer": 0.0,
+      "siren": 0.0,
+      "street_music": 0.0
+    }
+  },
+  {
+    "snr_db": 20,
+    "noise_type": "crowd",
+    "overall_accuracy": 0.3,
+    "macro_f1": 0.22222222222222224,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 0.0,
+      "gun_shot": 1.0,
+      "jackhammer": 1.0,
+      "siren": 0.0,
+      "street_music": 0.0
+    }
+  },
+  {
+    "snr_db": 10,
+    "noise_type": "crowd",
+    "overall_accuracy": 0.2,
+    "macro_f1": 0.13333333333333333,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 0.0,
+      "gun_shot": 1.0,
+      "jackhammer": 0.0,
+      "siren": 0.0,
+      "street_music": 0.0
+    }
+  },
+  {
+    "snr_db": 5,
+    "noise_type": "crowd",
+    "overall_accuracy": 0.1,
+    "macro_f1": 0.03333333333333333,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 0.0,
+      "gun_shot": 0.0,
+      "jackhammer": 0.0,
+      "siren": 0.0,
+      "street_music": 0.0
+    }
+  },
+  {
+    "snr_db": 0,
+    "noise_type": "crowd",
+    "overall_accuracy": 0.2,
+    "macro_f1": 0.08888888888888888,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 1.0,
+      "gun_shot": 0.0,
+      "jackhammer": 0.0,
+      "siren": 0.0,
+      "street_music": 0.0
+    }
+  },
+  {
+    "snr_db": -5,
+    "noise_type": "crowd",
+    "overall_accuracy": 0.3,
+    "macro_f1": 0.17333333333333334,
+    "per_class_accuracy": {
+      "air_conditioner": 1.0,
+      "car_horn": 0.0,
+      "children_playing": 0.0,
+      "dog_bark": 0.0,
+      "drilling": 0.0,
+      "engine_idling": 1.0,
+      "gun_shot": 1.0,
+      "jackhammer": 0.0,
+      "siren": 0.0,
+      "street_music": 0.0
+    }
+  }
+]

@@ -1,0 +1,200 @@
+{
+  "model_type": "resnet50",
+  "n_folds": 8,
+  "mean_acc": 0.9232456140350878,
+  "std_acc": 0.03324697698657123,
+  "fold_results": [
+    {
+      "fold": 1,
+      "model_type": "resnet50",
+      "val_acc": 1.0,
+      "history": {
+        "train_loss": [
+          2.0790622399963494,
+          1.2867742237243944
+        ],
+        "train_acc": [
+          0.3816793893129771,
+          0.7946564885496183
+        ],
+        "val_loss": [
+          1.959439992904663,
+          0.47297391295433044
+        ],
+        "val_acc": [
+          0.6,
+          1.0
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\resnet50_fold1_best.pt"
+    },
+    {
+      "fold": 2,
+      "model_type": "resnet50",
+      "val_acc": 0.9263157894736842,
+      "history": {
+        "train_loss": [
+          2.0687769121828334,
+          1.304026433007907
+        ],
+        "train_acc": [
+          0.3920353982300885,
+          0.8230088495575221
+        ],
+        "val_loss": [
+          1.940572290671499,
+          0.6748845367055191
+        ],
+        "val_acc": [
+          0.7631578947368421,
+          0.9263157894736842
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\resnet50_fold2_best.pt"
+    },
+    {
+      "fold": 3,
+      "model_type": "resnet50",
+      "val_acc": 0.9368421052631579,
+      "history": {
+        "train_loss": [
+          2.0786673102758626,
+          1.3416747344278657
+        ],
+        "train_acc": [
+          0.33716814159292036,
+          0.7955752212389381
+        ],
+        "val_loss": [
+          1.999009881521526,
+          0.6326766387412422
+        ],
+        "val_acc": [
+          0.7684210526315789,
+          0.9368421052631579
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\resnet50_fold3_best.pt"
+    },
+    {
+      "fold": 4,
+      "model_type": "resnet50",
+      "val_acc": 0.9052631578947369,
+      "history": {
+        "train_loss": [
+          2.1004085777080164,
+          1.399230099568325
+        ],
+        "train_acc": [
+          0.31946902654867254,
+          0.7442477876106195
+        ],
+        "val_loss": [
+          1.9931330040881508,
+          0.7461542073049043
+        ],
+        "val_acc": [
+          0.6473684210526316,
+          0.9052631578947369
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\resnet50_fold4_best.pt"
+    },
+    {
+      "fold": 5,
+      "model_type": "resnet50",
+      "val_acc": 0.8789473684210526,
+      "history": {
+        "train_loss": [
+          2.0533508522320636,
+          1.3286335457742742
+        ],
+        "train_acc": [
+          0.3911504424778761,
+          0.7557522123893805
+        ],
+        "val_loss": [
+          1.9094446997893484,
+          0.8002399107343272
+        ],
+        "val_acc": [
+          0.7684210526315789,
+          0.8789473684210526
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\resnet50_fold5_best.pt"
+    },
+    {
+      "fold": 6,
+      "model_type": "resnet50",
+      "val_acc": 0.9052631578947369,
+      "history": {
+        "train_loss": [
+          2.085260212104932,
+          1.3396316764628993
+        ],
+        "train_acc": [
+          0.34424778761061947,
+          0.7619469026548673
+        ],
+        "val_loss": [
+          1.965242926697982,
+          0.6705122141461624
+        ],
+        "val_acc": [
+          0.7684210526315789,
+          0.9052631578947369
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\resnet50_fold6_best.pt"
+    },
+    {
+      "fold": 7,
+      "model_type": "resnet50",
+      "val_acc": 0.9111111111111111,
+      "history": {
+        "train_loss": [
+          2.088198371100844,
+          1.3518651422701384
+        ],
+        "train_acc": [
+          0.3385964912280702,
+          0.787719298245614
+        ],
+        "val_loss": [
+          1.9920357174343533,
+          0.6944637490643395
+        ],
+        "val_acc": [
+          0.6666666666666666,
+          0.9111111111111111
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\resnet50_fold7_best.pt"
+    },
+    {
+      "fold": 8,
+      "model_type": "resnet50",
+      "val_acc": 0.9222222222222223,
+      "history": {
+        "train_loss": [
+          2.0867131877363776,
+          1.335076061466284
+        ],
+        "train_acc": [
+          0.35350877192982455,
+          0.8070175438596491
+        ],
+        "val_loss": [
+          1.98327649169498,
+          0.7013960586653816
+        ],
+        "val_acc": [
+          0.7444444444444445,
+          0.9222222222222223
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\resnet50_fold8_best.pt"
+    }
+  ]
+}

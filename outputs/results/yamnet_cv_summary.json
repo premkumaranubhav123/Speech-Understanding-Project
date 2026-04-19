@@ -1,0 +1,200 @@
+{
+  "model_type": "yamnet",
+  "n_folds": 8,
+  "mean_acc": 0.8743786549707602,
+  "std_acc": 0.038176077735116325,
+  "fold_results": [
+    {
+      "fold": 1,
+      "model_type": "yamnet",
+      "val_acc": 0.8,
+      "history": {
+        "train_loss": [
+          1.998139885545687,
+          1.315861992071603
+        ],
+        "train_acc": [
+          0.35038167938931297,
+          0.7419847328244275
+        ],
+        "val_loss": [
+          1.8917948007583618,
+          0.7816826105117798
+        ],
+        "val_acc": [
+          0.7,
+          0.8
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\yamnet_fold1_best.pt"
+    },
+    {
+      "fold": 2,
+      "model_type": "yamnet",
+      "val_acc": 0.8947368421052632,
+      "history": {
+        "train_loss": [
+          2.0224681953413297,
+          1.4156302479516087
+        ],
+        "train_acc": [
+          0.36991150442477877,
+          0.7185840707964601
+        ],
+        "val_loss": [
+          2.020021108577126,
+          0.8597280546238548
+        ],
+        "val_acc": [
+          0.6157894736842106,
+          0.8947368421052632
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\yamnet_fold2_best.pt"
+    },
+    {
+      "fold": 3,
+      "model_type": "yamnet",
+      "val_acc": 0.8578947368421053,
+      "history": {
+        "train_loss": [
+          2.055887034298044,
+          1.4628373625004185
+        ],
+        "train_acc": [
+          0.3106194690265487,
+          0.6920353982300885
+        ],
+        "val_loss": [
+          1.9847834135356703,
+          0.936512649686713
+        ],
+        "val_acc": [
+          0.6842105263157895,
+          0.8578947368421053
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\yamnet_fold3_best.pt"
+    },
+    {
+      "fold": 4,
+      "model_type": "yamnet",
+      "val_acc": 0.9263157894736842,
+      "history": {
+        "train_loss": [
+          2.0783550770936814,
+          1.454383426851931
+        ],
+        "train_acc": [
+          0.30619469026548674,
+          0.6902654867256637
+        ],
+        "val_loss": [
+          2.029382242654499,
+          0.8978725863130469
+        ],
+        "val_acc": [
+          0.631578947368421,
+          0.9263157894736842
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\yamnet_fold4_best.pt"
+    },
+    {
+      "fold": 5,
+      "model_type": "yamnet",
+      "val_acc": 0.8526315789473684,
+      "history": {
+        "train_loss": [
+          2.0939910080580586,
+          1.4934501550893868
+        ],
+        "train_acc": [
+          0.28938053097345134,
+          0.6672566371681415
+        ],
+        "val_loss": [
+          2.055731509861193,
+          0.9447691506461093
+        ],
+        "val_acc": [
+          0.5368421052631579,
+          0.8526315789473684
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\yamnet_fold5_best.pt"
+    },
+    {
+      "fold": 6,
+      "model_type": "yamnet",
+      "val_acc": 0.8578947368421053,
+      "history": {
+        "train_loss": [
+          2.075275747332953,
+          1.4669041810837466
+        ],
+        "train_acc": [
+          0.30796460176991153,
+          0.6646017699115044
+        ],
+        "val_loss": [
+          2.018798926002101,
+          0.8643108349097403
+        ],
+        "val_acc": [
+          0.5578947368421052,
+          0.8578947368421053
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\yamnet_fold6_best.pt"
+    },
+    {
+      "fold": 7,
+      "model_type": "yamnet",
+      "val_acc": 0.8888888888888888,
+      "history": {
+        "train_loss": [
+          2.11733667474044,
+          1.5020026834387528
+        ],
+        "train_acc": [
+          0.2482456140350877,
+          0.6649122807017543
+        ],
+        "val_loss": [
+          2.0589211755328707,
+          0.8815508153703477
+        ],
+        "val_acc": [
+          0.5611111111111111,
+          0.8888888888888888
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\yamnet_fold7_best.pt"
+    },
+    {
+      "fold": 8,
+      "model_type": "yamnet",
+      "val_acc": 0.9166666666666666,
+      "history": {
+        "train_loss": [
+          2.08285643552479,
+          1.4585748639023095
+        ],
+        "train_acc": [
+          0.3140350877192982,
+          0.7289473684210527
+        ],
+        "val_loss": [
+          2.0247928460439044,
+          0.8676483584774866
+        ],
+        "val_acc": [
+          0.7111111111111111,
+          0.9166666666666666
+        ]
+      },
+      "checkpoint": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\checkpoints\\yamnet_fold8_best.pt"
+    }
+  ]
+}

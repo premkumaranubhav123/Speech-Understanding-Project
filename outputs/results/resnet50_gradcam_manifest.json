@@ -1,0 +1,92 @@
+{
+  "air_conditioner": [
+    {
+      "sample_idx": 0,
+      "true_class": "air_conditioner",
+      "pred_class": "engine_idling",
+      "correct": false,
+      "cam_path": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\figures\\grad_cam\\resnet50\\incorrect_air_conditioner_sample1.png"
+    }
+  ],
+  "car_horn": [
+    {
+      "sample_idx": 1,
+      "true_class": "car_horn",
+      "pred_class": "engine_idling",
+      "correct": false,
+      "cam_path": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\figures\\grad_cam\\resnet50\\incorrect_car_horn_sample1.png"
+    }
+  ],
+  "children_playing": [
+    {
+      "sample_idx": 2,
+      "true_class": "children_playing",
+      "pred_class": "engine_idling",
+      "correct": false,
+      "cam_path": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\figures\\grad_cam\\resnet50\\incorrect_children_playing_sample1.png"
+    }
+  ],
+  "dog_bark": [
+    {
+      "sample_idx": 3,
+      "true_class": "dog_bark",
+      "pred_class": "engine_idling",
+      "correct": false,
+      "cam_path": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\figures\\grad_cam\\resnet50\\incorrect_dog_bark_sample1.png"
+    }
+  ],
+  "drilling": [
+    {
+      "sample_idx": 4,
+      "true_class": "drilling",
+      "pred_class": "engine_idling",
+      "correct": false,
+      "cam_path": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\figures\\grad_cam\\resnet50\\incorrect_drilling_sample1.png"
+    }
+  ],
+  "engine_idling": [
+    {
+      "sample_idx": 5,
+      "true_class": "engine_idling",
+      "pred_class": "engine_idling",
+      "correct": true,
+      "cam_path": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\figures\\grad_cam\\resnet50\\correct_engine_idling_sample1.png"
+    }
+  ],
+  "gun_shot": [
+    {
+      "sample_idx": 6,
+      "true_class": "gun_shot",
+      "pred_class": "gun_shot",
+      "correct": true,
+      "cam_path": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\figures\\grad_cam\\resnet50\\correct_gun_shot_sample1.png"
+    }
+  ],
+  "jackhammer": [
+    {
+      "sample_idx": 7,
+      "true_class": "jackhammer",
+      "pred_class": "engine_idling",
+      "correct": false,
+      "cam_path": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\figures\\grad_cam\\resnet50\\incorrect_jackhammer_sample1.png"
+    }
+  ],
+  "siren": [
+    {
+      "sample_idx": 8,
+      "true_class": "siren",
+      "pred_class": "siren",
+      "correct": true,
+      "cam_path": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\figures\\grad_cam\\resnet50\\correct_siren_sample1.png"
+    }
+  ],
+  "street_music": [
+    {
+      "sample_idx": 9,
+      "true_class": "street_music",
+      "pred_class": "engine_idling",
+      "correct": false,
+      "cam_path": "C:\\Users\\chint\\.gemini\\antigravity\\scratch\\esc_project\\outputs\\figures\\grad_cam\\resnet50\\incorrect_street_music_sample1.png"
+    }
+  ]
+}

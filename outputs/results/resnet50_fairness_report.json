@@ -1,0 +1,70 @@
+{
+  "model_type": "resnet50",
+  "class_imbalance": {
+    "counts": {
+      "air_conditioner": 150,
+      "car_horn": 150,
+      "children_playing": 150,
+      "dog_bark": 150,
+      "drilling": 150,
+      "engine_idling": 150,
+      "gun_shot": 150,
+      "jackhammer": 150,
+      "siren": 150,
+      "street_music": 150
+    },
+    "max_count": 150,
+    "min_count": 150,
+    "imbalance_ratio": 1.0,
+    "most_common": "air_conditioner",
+    "least_common": "air_conditioner",
+    "recommendation": "Balanced dataset"
+  },
+  "bias_detection": {
+    "mean_f1": 0.9079790764684119,
+    "std_f1": 0.1790572768108359,
+    "threshold": 0.728921799657576,
+    "underperforming_classes": {
+      "air_conditioner": 0.6686567164179105,
+      "engine_idling": 0.45685279187817257
+    },
+    "well_performing_classes": {
+      "car_horn": 0.9961977186311787,
+      "children_playing": 0.9846153846153847,
+      "dog_bark": 0.9885057471264368,
+      "drilling": 0.9924812030075187,
+      "gun_shot": 1.0,
+      "jackhammer": 1.0,
+      "siren": 1.0,
+      "street_music": 0.9924812030075187
+    },
+    "per_class_f1": {
+      "air_conditioner": 0.6686567164179105,
+      "car_horn": 0.9961977186311787,
+      "children_playing": 0.9846153846153847,
+      "dog_bark": 0.9885057471264368,
+      "drilling": 0.9924812030075187,
+      "engine_idling": 0.45685279187817257,
+      "gun_shot": 1.0,
+      "jackhammer": 1.0,
+      "siren": 1.0,
+      "street_music": 0.9924812030075187
+    }
+  },
+  "demographic_parity": {
+    "demographic_parity_index": 0.21436665911381736,
+    "tpr_per_class": {
+      "air_conditioner": 0.8484848484205693,
+      "car_horn": 0.9924242423490587,
+      "children_playing": 0.9696969696235077,
+      "dog_bark": 0.9772727271986914,
+      "drilling": 0.9999999999242424,
+      "engine_idling": 0.34090909088326443,
+      "gun_shot": 0.9999999999242424,
+      "jackhammer": 0.9999999999242424,
+      "siren": 0.9999999999242424,
+      "street_music": 0.9999999999242424
+    },
+    "interpretation": "DPI < 0.2: fair, 0.2-0.4: moderate bias, > 0.4: significant bias"
+  }
+}
